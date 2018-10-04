@@ -1,0 +1,29 @@
+{
+  "name": "node-str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "azure-storage": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.2.14",
+    "oracledb": "^2.3.0",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
